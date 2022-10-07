@@ -1,6 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
 *{
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+
+}
+
+
+
+
 .info__container{
     max-width: 1395px;
     width: 100%;

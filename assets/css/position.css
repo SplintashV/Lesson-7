@@ -65,7 +65,7 @@
 }
  
 .container-overflow-x .exemple-row {
-    width: 2000px;
+    width: calc(1000px + 1000px) ;
     background-color: rgb(161, 212, 212);
 }
 
@@ -89,4 +89,48 @@ td {
 
 [rowspan="3"] {
     background: #92be89;
+}
+
+.w1 {
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+}
+.w2 {
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+.w3 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+.w4 {
+    font-family: "Comforter Brush";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    
+}  
+.w5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    
+}    
+.triangle {
+    width: 0;
+	height: 0;
+	border-top: 100px solid rgb(152, 91, 231); 
+	border-right: 100px solid transparent;	
+    margin-right: auto;
+    margin-left: auto;
+    
 }
